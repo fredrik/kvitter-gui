@@ -10,6 +10,7 @@ class KvitterGui
     set :views,  "#{dir}/views"
 
     get '/' do
+      # TODO: parameterize service location.
       haml :index
     end
 
